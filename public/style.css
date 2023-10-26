@@ -20,6 +20,17 @@ body {
     border-radius: 10px;
   }
 
+.card-bomba-produto{
+    background-color: #FFFF;
+    display: inline-block;
+    width: 500px;
+    height: 800px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
 
 
   .bomba-h5{
@@ -42,6 +53,15 @@ body {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+      }
+  .bomba-{
+        padding: 5px;
+        font-size: 15px;
+        font-family:'Bruno Ace', sans-serif;
+        color: #B7FF01;
+        margin: 0;
+        
+        
       }
       .bomba-p:hover{
         padding: 5px;
