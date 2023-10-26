@@ -1,11 +1,55 @@
-.card-fundo{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 400px;
-    background-color: aqua;
+body {
+    background-color: black;
+    text-align: center;
 }
-.card-imagem{
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.card-bomba{
+    background-color: #FFFF;
     
+    display: inline-block;
+    width: 290px;
+    height: 400px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+
+
+  .bomba-h5{
+    padding: 5px;
+    font-family:'Bruno Ace', sans-serif;
+    font-size: 15px;
+    color: #B7FF01;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .bomba-p{
+        padding: 5px;
+        font-size: 15px;
+        font-family:'Bruno Ace', sans-serif;
+        color: #B7FF01;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .bomba-p:hover{
+        padding: 5px;
+        margin: 0;
+        font-size: 12px;
+        font-family:'Bruno Ace', sans-serif;
+        white-space: normal;
+      }
+h1{
+    color: white;
 }
