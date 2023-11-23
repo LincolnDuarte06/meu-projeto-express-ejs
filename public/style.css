@@ -37,7 +37,7 @@ body {
     padding: 5px;
     font-family:'Bruno Ace', sans-serif;
     font-size: 15px;
-    color: #B7FF01;
+    color: black;
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -48,7 +48,7 @@ body {
         padding: 5px;
         font-size: 15px;
         font-family:'Bruno Ace', sans-serif;
-        color: #B7FF01;
+        color: black;
         margin: 0;
         white-space: nowrap;
         overflow: hidden;
@@ -58,7 +58,7 @@ body {
         padding: 5px;
         font-size: 15px;
         font-family:'Bruno Ace', sans-serif;
-        color: #B7FF01;
+        color: black;
         margin: 0;
         
         
@@ -72,4 +72,7 @@ body {
       }
 h1{
     color: white;
+}
+p{
+  color: white;
 }
