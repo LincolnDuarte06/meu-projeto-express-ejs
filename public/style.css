@@ -76,3 +76,35 @@ h1{
 p{
   color: white;
 }
+
+* Estilos para a classe row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem; /* Para compensar o espaçamento negativo do Bootstrap */
+}
+
+/* Estilos para a classe row-cols-1 */
+.row-cols-1 > * {
+  flex: 0 0 100%; /* Ocupa 100% da largura */
+  max-width: 100%; /* Largura máxima de 100% */
+  padding: 0.5rem; /* Espaçamento entre os itens */
+}
+
+/* Estilos para a classe row-cols-sm-2 */
+@media (min-width: 576px) {
+  .row-cols-sm-2 > * {
+    flex: 0 0 50%; /* Ocupa 50% da largura em telas pequenas (>= 576px) */
+    max-width: 50%; /* Largura máxima de 50% */
+    padding: 0.5rem; /* Espaçamento entre os itens */
+  }
+}
+
+/* Estilos para a classe row-cols-md-3 */
+@media (min-width: 768px) {
+  .row-cols-md-3 > * {
+    flex: 0 0 33.333%; /* Ocupa 33.333% da largura em telas médias (>= 768px) */
+    max-width: 33.333%; /* Largura máxima de 33.333% */
+    padding: 0.5rem; /* Espaçamento entre os itens */
+  }
+}

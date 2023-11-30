@@ -11,14 +11,13 @@
   <% for (let produto of produtos) { %>
 
   <div class="card-bomba">
-    <a href="/produtos/<%= produto.id%>">
-      <img src="https://tfcucl.vteximg.com.br/arquivos/ids/157894-590-590/1_darkchocolate.png?v=638267815291730000" class="imagem"><img>
 
-    <h5 class="bomba-h5"><%= produto.titulo%></h5>
-    <p class="bomba-p"><%= produto.preco%></p>
+    <img src="imagem/<%= produto.imagem %>" class="imagem"><img>
+    <h5 class="bomba-h5"><%= produto.titulo %></h5>
+    <p class="bomba-p"><%= produto.preco %></p>
     <p class="bomba-p">sabor</p>
-    <p class="bomba-p"><%= produto.descricao%></p>
-  </a>
+    <p class="bomba-p"><%= produto.descricao %></p>
+    <a class="button" href="/produtos/<%= produto.id %>">Vizuvializar Produto</a>
   </div>
   <% } %>
   
