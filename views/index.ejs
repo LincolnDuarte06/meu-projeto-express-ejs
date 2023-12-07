@@ -12,11 +12,10 @@
 
   <div class="card-bomba">
 
-    <img src="imagem/<%= produto.imagem %>" class="imagem"><img>
+    <img src="imagem/<%= produto.imagem %>" class="imagem">
     <h5 class="bomba-h5"><%= produto.titulo %></h5>
     <p class="bomba-p"><%= produto.preco %></p>
-    <p class="bomba-p">sabor</p>
-    <p class="bomba-p"><%= produto.descricao %></p>
+    
     <a class="button" href="/produtos/<%= produto.id %>">Vizuvializar Produto</a>
   </div>
   <% } %>
